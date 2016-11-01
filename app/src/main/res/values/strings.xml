@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_food_menu">Swad</string>
+    <string name="title_activity_dishes">Swad</string>
+    <string name="title_activity_order">Swad</string>
+    <string name="title_activity_register">Swad</string>
+    <string name="fname">FirstName</string>
+    <string name="lname">LastName</string>
+    <string name="mobileno">Mobile No</string>
+    <string name="email">Email Address</string>
+    <string name="dob">(Date of Birth)DD/MM/YYYY</string>
+    <string name="title_activity_today_special">Swad</string>
+    <string name="title_activity_your_orders">Swad</string>
+    <string name="title_activity_feedback">Swad</string>
+    <string name="title_activity_bookatable">Swad</string>
+    <string name="address">Address</string>
+    <string name="title_activity_contact">Swad</string>
+    <string name="title_activity_zero">Swad</string>
+    <string name="title_activity_order_type">Swad</string>
+    <string name="title_activity_hd">Swad</string>
+    <string name="proceedtoorder">PROCEED TO ORDER >>></string>
+    <string name="title_activity_submit_order">Swad</string>
+    <string name="title_activity_test">Swad</string>
+    <string name="party_menu_one">UNLIMITED PAV BHAJI (पाव भाजी)</string>
+    <string name="party_menu_two">UNLIMITED PULAV (पुलाव)</string>
+    <string name="party_menu_three">UNLIMITED (PAV BHAJI + PULAV)(वपाव भाजी + पुलाव)</string>
+    <string name="title_activity_party_menu">PartyMenu</string>
+    <string name="party_date">Party Date:</string>
+    <string name="party_add">Party Address:</string>
+    <string name="party_menu_rate_one">Per Plate Rate:</string>
+    <string name="party_menu_rate_two">Per Plate Rate:</string>
+    <string name="party_menu_rate_three">Per Plate Rate:</string>
+</resources>

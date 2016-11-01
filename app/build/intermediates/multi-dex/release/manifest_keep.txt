@@ -1,0 +1,26 @@
+-keep class com.skew.swad.RestoApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.skew.swad.MainActivity { <init>(); }
+-keep class com.skew.swad.FoodMenuActivity { <init>(); }
+-keep class com.skew.swad.DishesActivity { <init>(); }
+-keep class com.skew.swad.OrderActivity { <init>(); }
+-keep class com.skew.swad.RegisterActivity { <init>(); }
+-keep class com.skew.swad.TodaySpecialActivity { <init>(); }
+-keep class com.skew.swad.YourOrdersActivity { <init>(); }
+-keep class com.skew.swad.FeedbackActivity { <init>(); }
+-keep class com.skew.swad.BookatableActivity { <init>(); }
+-keep class com.skew.swad.ContactActivity { <init>(); }
+-keep class com.skew.swad.ZeroActivity { <init>(); }
+-keep class com.skew.swad.OrderTypeActivity { <init>(); }
+-keep class com.skew.swad.HDActivity { <init>(); }
+-keep class com.skew.swad.SubmitOrderActivity { <init>(); }
+-keep class com.skew.swad.DiscountsActivity { <init>(); }
+-keep class com.skew.swad.PartyMenu { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

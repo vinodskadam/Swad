@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gb"
+        android:gravity="bottom|top"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Party Menu"
+                android:id="@+id/textView7"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:background="#f35246"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tpmone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/pavbhaji"
+                android:text="@string/party_menu_one"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tpmrateone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/party_menu_rate_one"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f58484"
+                android:textStyle="bold"
+                android:gravity="left|top" />
+
+                <Button
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.80.00"
+                    android:id="@+id/button4"
+                    android:background="@color/transparent"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="X"
+                    android:id="@+id/textView8" />
+
+                <EditText
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="0"
+                    android:ems="10"
+                    android:id="@+id/qtyone"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:enabled="true"
+                    android:textColor="#243690"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.0"
+                    android:id="@+id/t1"
+                    android:textColor="#811717"
+                    android:background="@color/transparent"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView11"
+            android:background="@color/White"
+            android:gravity="center|center_vertical" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tpmtwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/pullav"
+                android:text="@string/party_menu_two"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center_vertical" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tpmratetwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/party_menu_rate_two"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f58484"
+                android:textStyle="bold"
+                android:gravity="top" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.60.00"
+                    android:id="@+id/button5"
+                    android:background="@color/transparent"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="X"
+                    android:id="@+id/textView9" />
+
+                <EditText
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="0"
+                    android:ems="10"
+                    android:id="@+id/qtytwo"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textColor="#243690"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.0"
+                    android:id="@+id/t2"
+                    android:textColor="#811717"
+                    android:background="@color/transparent"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView12"
+            android:gravity="center|center_vertical"
+            android:background="@color/White" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tpmthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/pavbhajipulav"
+                android:text="@string/party_menu_three"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center_vertical" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tpmratethree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/party_menu_rate_three"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f58484"
+                android:textStyle="bold" />
+
+                <Button
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.120.00"
+                    android:id="@+id/button6"
+                    android:background="@color/transparent"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="X"
+                    android:id="@+id/textView10" />
+
+                <EditText
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/qtythree"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textColor="#243690"
+                    android:hint="0"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.0"
+                    android:id="@+id/t3"
+                    android:textColor="#811717"
+                    android:background="@color/transparent"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView13"
+            android:gravity="center|center_vertical"
+            android:background="@color/White" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/party_date"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/party_date_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Party Time"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/partytime" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/party_add"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/party_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/White"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Total Bill:"
+                android:id="@+id/textView14"
+                android:gravity="left"
+                android:layout_weight="1.01" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rs.0.00"
+                android:id="@+id/totalbill"
+                android:textColor="#811717"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitpartyorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Order"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="20dp"
+            android:layout_weight="0.07" />
+    </LinearLayout>
+</ScrollView>

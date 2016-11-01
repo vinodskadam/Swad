@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gb"
+    android:gravity="bottom|center_horizontal|right|top"
+    android:orientation="vertical"
+    tools:context="com.skew.swad.MainActivity" >
+
+    <!-- <TextView
+        android:id="@+id/displayname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome! Dear User"
+        android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<ScrollView
+        android:id="@+id/scrollmainmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+        android:id="@+id/FoodMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOOD MENU"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <!-- <Button
+        android:id="@+id/bookatable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOOK A TABLE"
+        android:textColor="@color/black"
+        android:textStyle="bold" /> -->
+
+    <!-- <Button
+        android:id="@+id/Todayspecial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="TODAY'S SPECIAL"
+        android:textColor="@color/brown"
+        android:background="@drawable/button_press"
+        android:textStyle="bold" /> -->
+<Button
+        android:id="@+id/yourorders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRACK YOUR ORDERS"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+<Button
+        android:id="@+id/discountstab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OFFERS"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+ <Button
+        android:id="@+id/Registerme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER TO ORDER"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+<Button
+    android:id="@+id/sharewithfriends"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:text="SHARE WITH FRIENDS" />
+    
+	<Button
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK/RATING"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/contactus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="CONTACT US"
+        android:textStyle="bold" />
+
+    <!-- <Button
+        android:id="@+id/closeapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLOSE APPLICATION"
+        android:textColor="@color/maroon"
+        android:textStyle="bold" /> -->
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\release\\raw\\marathi.csv",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\raw\\marathi.csv"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\release\\raw\\dishtable.csv",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\raw\\dishtable.csv"
+    }
+]

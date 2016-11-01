@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skew.swad"
+    android:versionCode="2"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <permission
+        android:name="com.skew.swad.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.skew.swad.permission.C2D_MESSAGE" />
+
+    <meta-data
+        android:name="com.parse.push.gcm_sender_id"
+        android:value="id:1049362552188" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.skew.swad.RestoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.skew.swad.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.skew.swad.FoodMenuActivity"
+            android:label="@string/title_activity_food_menu" />
+        <activity
+            android:name="com.skew.swad.DishesActivity"
+            android:label="@string/title_activity_dishes" />
+        <activity
+            android:name="com.skew.swad.OrderActivity"
+            android:label="@string/title_activity_order" />
+        <activity
+            android:name="com.skew.swad.RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name="com.skew.swad.TodaySpecialActivity"
+            android:label="@string/title_activity_today_special" />
+        <activity
+            android:name="com.skew.swad.YourOrdersActivity"
+            android:label="@string/title_activity_your_orders" />
+        <activity
+            android:name="com.skew.swad.FeedbackActivity"
+            android:label="@string/title_activity_feedback" />
+        <activity
+            android:name="com.skew.swad.BookatableActivity"
+            android:label="@string/title_activity_bookatable" />
+        <activity
+            android:name="com.skew.swad.ContactActivity"
+            android:label="@string/title_activity_contact" />
+        <activity
+            android:name="com.skew.swad.ZeroActivity"
+            android:label="@string/title_activity_zero" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.skew.swad.OrderTypeActivity"
+            android:label="@string/title_activity_order_type" />
+        <activity
+            android:name="com.skew.swad.HDActivity"
+            android:label="@string/title_activity_hd" />
+        <activity
+            android:name="com.skew.swad.SubmitOrderActivity"
+            android:label="@string/title_activity_submit_order" />
+        <activity
+            android:name="com.skew.swad.DiscountsActivity"
+            android:label="@string/title_activity_submit_order" />
+        <activity
+            android:name="com.skew.swad.PartyMenu"
+            android:label="@string/title_activity_party_menu"
+            android:parentActivityName="com.skew.swad.FoodMenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.skew.swad.FoodMenuActivity" />
+        </activity>
+    </application>
+
+</manifest>

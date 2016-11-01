@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gb"
+    android:gravity="bottom|center|center_horizontal|right|top"
+    android:orientation="vertical"
+    tools:context="com.skew.swad.HDActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DELIVER TO:"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+    <Button
+        android:id="@+id/radd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTERED ADDRESS"
+        android:textColor="@color/maroon"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center"
+        android:text="or:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/nradd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS MENTIONED BELOW"
+        android:textColor="@color/maroon"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/deliveryadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Address Here"
+        android:inputType="textPostalAddress" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

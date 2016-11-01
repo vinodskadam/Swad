@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Please Register"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Name(*)"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <requestFocus />
+    </EditText>
+     
+    <EditText
+        android:id="@+id/mobilenumber"
+        android:hint="Mobile Number(*)"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+	<EditText
+        android:id="@+id/dob"
+        android:hint="Date of Birth(DD/MM/YYYY)(*)"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/houseno"
+        android:hint="Plot/House/Flat no(*)"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     <EditText
+        android:id="@+id/societyname"
+        android:hint="Society Name(*)"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/areamame"
+        android:hint="Area Name(*)"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fields marked (*) are mandatory"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</LinearLayout>

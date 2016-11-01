@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gb"
+    android:gravity="bottom|center_horizontal|right|top"
+    android:orientation="vertical"
+    tools:context="com.skew.swad.OrderTypeActivity" >
+
+   
+<ScrollView
+        android:id="@+id/scrollmainmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+	<Button
+        android:id="@+id/homedelivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOME DELIVERY"
+        android:textColor="@color/brown"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/takeaway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAKEAWAY / PARCEL"
+        android:textColor="@color/brown"
+        android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

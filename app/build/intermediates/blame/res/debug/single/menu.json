@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\feedback.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\submit_order.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\submit_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\order.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\order.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bookatable.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\bookatable.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\food_menu.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\food_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\order_type.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\order_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\register.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\register.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\dishes.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\dishes.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\hd.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\hd.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\zero.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\zero.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\today_special.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\today_special.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contact.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\build\\intermediates\\res\\merged\\debug\\menu\\your_orders.xml",
+        "source": "C:\\Users\\vinodskadam\\AndroidStudioProjects\\Swad\\app\\src\\main\\res\\menu\\your_orders.xml"
+    }
+]
